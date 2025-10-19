@@ -1,0 +1,12 @@
+@use "./common/common";
+@use "./layout/header";
+@use "./layout/footer";
+
+// page
+@use "./pages/home";
+@use "./pages/contact";
+@use "./pages/about-us";
+@use "./pages/services";
+@use "./pages/blogs-list";
+@use "./pages/single-post";
+@use "./pages/news-list";

@@ -1,0 +1,60 @@
+@use "sass:map";
+$breakpoint-up: (
+ 'xs': 'screen and (min-width: 330px)',
+'sm': 'screen and (min-width: 480px)',
+'md': 'screen and (min-width: 769px)',
+'lg': 'screen and (min-width: 1200px)',
+'xl': 'screen and (min-width: 1440px)',
+) !default;
+
+// max-width
+$breakpoint-down: (
+  'xs': 'screen and (max-width: 329px)',
+'sm': 'screen and (max-width: 479px)',
+'md': 'screen and (max-width: 768px)',
+'mlg': 'screen and (max-width: 992px)',
+'lg': 'screen and (max-width: 1200px)',
+'xl': 'screen and (min-width: 1440px)',
+) !default;
+
+$secondary-color: #252422;
+$primary-color: #062d7c;
+$white-color: #FFFFFF;
+
+@mixin mq-up($breakpoint: md) {
+  @media #{map.get($breakpoint-up, $breakpoint)} {
+    @content;
+  }
+}
+
+@mixin mq-down($breakpoint: md) {
+  @media #{map.get($breakpoint-down, $breakpoint)} {
+    @content;
+  }
+}
+
+@font-face {
+  font-family: "DIN 2014";
+  src: url(../../fonts/din-2014.otf);
+}
+
+@font-face {
+  font-family: "DIN Pro";
+  src: url(../../fonts/DINPro-Bold_13934.ttf);
+}
+@font-face {
+  font-family: "Hiragino Kaku Gothic ProN";
+  src: url(../../fonts/HIRAGINO_KAKU_GOTHIC_PRON_W6.OTF);
+}
+@font-face {
+  font-family: "Futura";
+  src: url(../../fonts/FUTURA_MEDIUM.TTF);
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url(../../fonts/Helvetica.ttf);
+}
+@font-face {
+  font-family: "soratohikouki";
+  src: url(../../fonts/soratohikouki.ttf);
+}

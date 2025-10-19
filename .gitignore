@@ -1,0 +1,50 @@
+# Node & build
+/node_modules
+/.sass-cache
+package-lock.json
+yarn.lock
+
+# WordPress core
+/wp-admin
+/wp-includes
+
+# WordPress content
+/wp-content/uploads
+/wp-content/plugins
+/wp-content/languages
+/wp-content/index.php
+
+# Theme build output
+/wp-content/themes/wind_power/assets/css/*.css
+
+# Sensitive files
+wp-config.php
+/.htaccess
+
+# Root files (WordPress core)
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+
+# Logs & IDE
+debug.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Vendor (PHP deps)
+/vendor/
+composer.lock
+
+# Backup
+*.zip
+*.tar.gz
+*.bak
+*.sql
+*.wpress

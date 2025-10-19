@@ -1,0 +1,7 @@
+@use "../abstracts/mixins" as *;
+
+.page-about-us {
+  .section {
+    padding: 15rem 0 0;
+  }
+}

@@ -1,0 +1,7 @@
+@use "../abstracts/mixins" as *;
+
+.page-top {
+  .section-title {
+    color: white;
+  }
+}
