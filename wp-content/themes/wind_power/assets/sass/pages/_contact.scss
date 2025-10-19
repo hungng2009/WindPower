@@ -3,6 +3,9 @@
 .page-contact {
   .section {
     padding: 5rem 0 0;
+    @include mq-down(md) {
+      padding: 10rem 0 0;
+    }
   }
   display: flex;
   align-items: center;
@@ -17,5 +20,51 @@
   .btn {
     font-size: 1.5rem;
     height: 4rem;
+  }
+  .wpcf7 form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  .wpcf7 form .form-group label {
+    font-size: 1.5rem;
+  }
+
+  .wpcf7 form .form-input,
+  .wpcf7 form select,
+  .wpcf7 form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1.5rem;
+  }
+
+  .wpcf7 form .btn {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .wpcf7-response-output {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+  .wpcf7-spinner {
+    position: absolute;
+    right: 60%;
+    top: 0;
+    left: 60%;
+    transform: translate(50%, 50%);
+    margin: 0;
+  }
+  .button-submit {
+    position: relative;
   }
 }

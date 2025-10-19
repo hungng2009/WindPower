@@ -10,7 +10,7 @@ yarn.lock
 
 # WordPress content
 /wp-content/uploads
-/wp-content/plugins
+/wp-content/plugins/
 /wp-content/languages
 /wp-content/index.php
 

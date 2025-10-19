@@ -1,7 +1,23 @@
 @use "../abstracts/mixins" as *;
 
 .page-top {
-  .section-title {
-    color: white;
+  .page-section {
+    min-height: 80vh;
+    @include mq-down(lg) {
+      min-height: 75vh;
+    }
+  }
+  .grid-3 {
+    @include mq-down(md) {
+      grid-template-columns: 1fr;
+    }
+  }
+  .card {
+    box-shadow: 0 0 15px rgba(0, 150, 255, 0.2);
+  }
+  .stats-section {
+    .section-title {
+      color: white;
+    }
   }
 }

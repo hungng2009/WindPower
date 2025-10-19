@@ -10,5 +10,9 @@
   .grid {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    @include mq-down(md){
+      grid-template-columns: 1fr;
+      gap: 4rem;
+    }
   }
 }

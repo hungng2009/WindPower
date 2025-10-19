@@ -36,32 +36,7 @@ get_header();
         </div>
         <div class="card">
           <h2 style="margin-bottom: 1.5rem; color: var(--dark-color);">Send us a Message</h2>
-          <form id="contact-form">
-            <div class="form-group"><label for="name" class="form-label">Full Name</label> <input type="text" id="name"
-                name="name" class="form-input" required>
-            </div>
-            <div class="form-group"><label for="email" class="form-label">Email Address</label> <input type="email"
-                id="email" name="email" class="form-input" required>
-            </div>
-            <div class="form-group"><label for="company" class="form-label">Company (Optional)</label> <input
-                type="text" id="company" name="company" class="form-input">
-            </div>
-            <div class="form-group"><label for="subject" class="form-label">Subject</label> <select id="subject"
-                name="subject" class="form-input" required>
-                <option value="">Select a topic</option>
-                <option value="consultation">Free Consultation</option>
-                <option value="project">New Project Inquiry</option>
-                <option value="maintenance">Maintenance Services</option>
-                <option value="partnership">Partnership Opportunities</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
-            <div class="form-group"><label for="message" class="form-label">Message</label> <textarea id="message"
-                name="message" class="form-input form-textarea" required
-                placeholder="Please let us know your feedback."></textarea>
-            </div><button type="submit" class="btn"
-              style="width: 100%; background: var(--primary-color); color: white;">Send Message</button>
-          </form>
+          <?php echo do_shortcode('[contact-form-7 id="a39480d" title="Contact Form - Wind Power"]'); ?>
         </div>
       </div>
     </div>

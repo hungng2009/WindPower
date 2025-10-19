@@ -3,5 +3,12 @@
 .page-about-us {
   .section {
     padding: 15rem 0 0;
+    @include mq-down(mlg){
+      padding: 8rem 0 0;
+    }
+    @include mq-down(md){
+      padding: 5rem 0 0;
+    }
+    
   }
 }

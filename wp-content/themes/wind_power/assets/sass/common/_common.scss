@@ -68,7 +68,7 @@ body {
   --light-color: #f8fafc;
   --text-color: #334155;
   --border-color: #e2e8f0;
-  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow: 0 0 15px rgba(0, 150, 255, 0.2);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
   --transition: all 0.3s ease;
 }
@@ -115,6 +115,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  position: relative;
 }
 
 .logo {
@@ -128,6 +129,31 @@ body {
   display: flex;
   list-style: none;
   gap: 2rem;
+}
+@include mq-down(md) {
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: 3.8rem;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    z-index: 99;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 1rem;
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  .nav-menu.active {
+    display: grid;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
 }
 
 .nav-link {
@@ -266,6 +292,9 @@ body {
 
 .grid-3 {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  @include mq-down(md) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .card {
@@ -433,10 +462,6 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .nav-menu {
-    display: none;
-  }
-
   .mobile-menu-btn {
     display: block;
   }
