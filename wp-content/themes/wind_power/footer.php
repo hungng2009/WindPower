@@ -15,36 +15,36 @@
   <div class="container">
     <div class="footer-content">
       <div class="footer-section">
-        <h3>Green Energy Solutions</h3>
-        <p>Harnessing the power of wind to create clean energy for a brighter planet.</p>
+        <h3>Healthy Youth Movement</h3>
+        <p>Empowering the next generation to live healthier, more active lives through the power of sports and community engagement.</p>
       </div>
       <div class="footer-section">
         <h3>Services</h3>
         <ul style="list-style: none;">
-          <li style="margin-bottom: 0.5rem;"><a href="#" style="color: #94a3b8; text-decoration: none; font-size: 1.3rem;">Wind Energy Project Development</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#" style="color: #94a3b8; text-decoration: none; font-size: 1.3rem;">Sustainability Consulting</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#" style="color: #94a3b8; text-decoration: none; font-size: 1.3rem;">Energy Efficiency Solutions</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#" style="color: #94a3b8; text-decoration: none; font-size: 1.3rem;">Environmental Education Programs</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#" style="color: #94a3b8; text-decoration: none; font-size: 1.3rem;">Smart Energy Management</a></li>
-          <li style="margin-bottom: 0.5rem;"><a href="#" style="color: #94a3b8; text-decoration: none; font-size: 1.3rem;">Renewable Energy Consulting</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#" style="color: white; text-decoration: none; font-size: 1.3rem;">Youth Sports Development Programs</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#" style="color: white; text-decoration: none; font-size: 1.3rem;">School Fitness Initiatives</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#" style="color: white; text-decoration: none; font-size: 1.3rem;">Community Wellness Projects</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#" style="color: white; text-decoration: none; font-size: 1.3rem;">Sports Coaching & Mentorship</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#" style="color: white; text-decoration: none; font-size: 1.3rem;">Nutrition and Health Workshops</a></li>
+          <li style="margin-bottom: 0.5rem;"><a href="#" style="color: white; text-decoration: none; font-size: 1.3rem;">Mental Health & Motivation Seminars</a></li>
         </ul>
       </div>
       <div class="footer-section">
-        <h3>Company</h3>
+        <h3>Healthy Youth Movement</h3>
         <ul style="list-style: none;">
           <li style="margin-bottom: 0.5rem;"><a href="<?php echo site_url('/about-us'); ?>" class="nav-link"
-              data-page="about" style="color: #94a3b8; text-decoration: none;">About Us</a></li>
+              data-page="about" style="color: white; text-decoration: none;">About Us</a></li>
           <li style="margin-bottom: 0.5rem;"><a href="<?php echo site_url('/blogs'); ?>" class="nav-link"
-              data-page="blogs" style="color: #94a3b8; text-decoration: none;">Blog</a></li>
+              data-page="blogs" style="color: white; text-decoration: none;">Blog</a></li>
           <li style="margin-bottom: 0.5rem;"><a href="<?php echo site_url('/news'); ?>" class="nav-link"
-              data-page="news" style="color: #94a3b8; text-decoration: none;">News</a></li>
+              data-page="news" style="color: white; text-decoration: none;">News</a></li>
           <li style="margin-bottom: 0.5rem;"><a href="<?php echo site_url('/contact'); ?>" class="nav-link"
-              data-page="contact" style="color: #94a3b8; text-decoration: none;">Contact</a></li>
+              data-page="contact" style="color: white; text-decoration: none;">Contact</a></li>
         </ul>
       </div>
       <div class="footer-section">
         <h3>Connect</h3>
-        <p>Follow us for the latest wind energy news and updates.</p>
+        <p>Follow us for the latest updates on youth sports and wellness.</p>
         <div style="margin-top: 1rem;"><span style="margin-right: 1rem; font-size: 1.5rem;">📧</span> <span
             style="margin-right: 1rem; font-size: 1.5rem;">📱</span> <span
             style="margin-right: 1rem; font-size: 1.5rem;">🌐</span>

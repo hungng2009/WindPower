@@ -15,4 +15,15 @@
       gap: 4rem;
     }
   }
+  .container{
+    @media screen and (min-width: 1536px) {
+      max-width: 1000px;
+    }
+    @media screen and (min-width: 1280px) {
+      max-width: 1000px;
+    }
+    @media screen and (min-width: 1024px) {
+      max-width: 1000px;
+    }
+  }
 }

@@ -37,7 +37,7 @@
       <nav id="site-navigation" class="navbar">
         <div class="nav-container">
           <a href="<?php echo esc_url(home_url('/')); ?>" class="logo" id="company-name">
-            Green Energy Solutions
+            Healthy Youth Movement
           </a>
           <ul class="nav-menu">
             <li>
